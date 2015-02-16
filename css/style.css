@@ -32,13 +32,13 @@ body{
 
 .masthead .top-navigation h2{
   float: left;
-  margin-top: 15px;
+  margin-top: 10px;
   padding-left: 2%;
   color: #ffffff;
 }
 
 .top-navigation .links{
-  margin-top: 10px;
+  margin-top: 15px;
   list-style: none;
   float: right;
 }
@@ -48,7 +48,6 @@ body{
   font-size: 1.2em;
   font-weight: 600;
   padding-right: 2em;
-  padding-top: .5em;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -132,9 +131,31 @@ body{
   margin: 2em 0 1em 0;
 }
 
+/** Portfolio Grid **/
+.portfolio-grid{
+  margin: 5% 15%;
+  overflow: hidden;
+}
+
+.grid-left,
+.grid-right{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.grid-left h2,
+.grid-right h2{
+   text-align: center;
+   color: #9eabb4;
+}
+
 
 section > h1 {
   margin-top: 2em;
+}
+
+.content-footer p{
+  margin-bottom: 0;
 }
 
 .social{
@@ -171,23 +192,7 @@ section > h1 {
   text-align: center;
 }
 
-/** Portfolio Grid **/
-.portfolio-grid{
-  margin: 5% 15%;
-  overflow: hidden;
-}
 
-.grid-left,
-.grid-right{
-  margin-left: 5%;
-  margin-top: 2%;
-}
-
-.grid-left h2,
-.grid-right h2{
-   text-align: center;
-   color: #9eabb4;
-}
 
 /*--------------------------------------------------------------
  Gridiculous
