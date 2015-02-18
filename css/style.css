@@ -281,12 +281,23 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
 
 @media only screen and (max-width: 750px) {
     
+    h2{
+      font-size: 1em;
+    }
 
     .masthead {
         padding: 3em 0;
     }
     .masthead-heading {
         font-size: 4em;
+    }
+
+    .top-navigation h2{
+      font-size: 1.5em
+    }
+
+    .top-navigation span{
+      font-size: .7em;
     }
 
     .heading-box{
