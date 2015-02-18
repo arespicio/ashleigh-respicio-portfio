@@ -42,6 +42,7 @@ h2{
 
 .masthead-heading,
 .masthead-intro,
+.contact-info,
 .content-footer{
   text-align: center;
 }
@@ -139,6 +140,14 @@ h2{
   text-align: justify;
 }
 
+.contact-info{
+  margin-bottom: 5em;
+}
+
+.contact-info p{
+  margin: 3em 20em;
+}
+
 .content-footer{
   background-color: #a38a98;
   padding-top: 2em;
@@ -150,6 +159,7 @@ h2{
 }
 
 .about-section > p,
+.contact-info > p,
 .content-footer > p,
 .portfolio-grid > p{
   /*Typography Declarations*/
@@ -202,6 +212,10 @@ section > h1 {
   padding-right: 0.5em;
 }
 
+.social h3{
+  color:#9A8F86;
+}
+
 .social li,
 .content-footer a{
    color: #ddddc5;
@@ -212,7 +226,7 @@ section > h1 {
   text-decoration: none;
 }
 
-.social li a:hover,
+.social li h3:hover,
 .content-footer a:hover{
   color: #cae1d7;
 }
@@ -282,7 +296,7 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
     .about-section{
         padding-right: 10%;
         padding-left: 10%;
-}
+    }
 
     .portfolio-grid{
       margin-top: 3em;
@@ -313,5 +327,10 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
     .grid-left,
     .grid-right{
       width: 80%;
+    }
+
+    .contact-info p{
+      margin: 0;
+      padding: 3em;
     }
 }
