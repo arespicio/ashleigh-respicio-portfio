@@ -124,13 +124,19 @@ h2{
   color: #ffffff;
 }
 
-.introduction-section,
-.location-section,
-.questions-section{
+.about-section{
   max-width: 38em;
   margin-right: auto;
   margin-left: auto;
   margin-top: 2em;
+}
+
+.about-section h2{
+  color: #9eabb4;
+}
+
+.about-section p{
+  text-align: justify;
 }
 
 .content-footer{
@@ -143,8 +149,7 @@ h2{
   display: inline-block;
 }
 
-.introduction > p,
-.location > p,
+.about-section > p,
 .content-footer > p,
 .portfolio-grid > p{
   /*Typography Declarations*/
@@ -154,20 +159,15 @@ h2{
   margin-bottom: 2em;
 }
 
-.questions-section h3{
-  /*Typography Declarations*/
-  font-family: "Playfair Display", serif;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #9eabb4;
-  /*Layout*/
-  margin: 2em 0 1em 0;
-}
-
 /** Portfolio Grid **/
 .portfolio-grid{
   margin: 5% 15%;
   overflow: hidden;
+}
+
+.portfolio-image h2{
+  padding: 1em;
+  font-weight: 600;
 }
 
 .grid-left,
@@ -276,15 +276,18 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
     }
 
     .heading-box{
-    margin: 2% 33%;
+    margin: 2% 30%;
     }
 
-    .introduction-section,
-    .location-section,
-    .questions-section{
+    .about-section{
         padding-right: 10%;
         padding-left: 10%;
 }
+
+    .portfolio-grid{
+      margin-top: 3em;
+    }
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -306,8 +309,6 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
     .header-img img{
       margin-top: 0;
     }
-
-
 
     .grid-left,
     .grid-right{
